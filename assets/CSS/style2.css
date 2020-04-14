@@ -1,0 +1,307 @@
+body, html {
+  background-color: rgb(255, 255, 255);
+  color: #040f16;
+  font-family: 'Roboto', sans-serif;
+  font-variant: small-caps;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+/* =============================================== en tete header-box */
+#header-box{
+  width: 100%;
+  height: 0;
+  background-color: #040f16;
+  margin: 0 auto;
+}
+#box-nav{
+  width: 100%;
+  padding: 0;
+  background-color: #040f16;
+  display: inline-block;
+  overflow: hidden;
+  position: fixed;
+  z-index: 10;
+  text-align: center;
+}
+#main-nav{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  display: inline-block;
+}
+#main-nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#main-nav li{
+  display: inline-block;
+}
+#main-nav a{
+  display: inline-block;
+  background-color: #040f16;
+  color: #fbfbff;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem 1rem;
+  border-bottom: 0.3rem solid #0b4f6c;
+}
+#main-nav a:hover{
+  color: #040f16;
+  text-shadow: 0 0 1px #01baef,0 0 5px rgb(255, 255, 255), 0 0 10px #01baef, 0 0 15px #01baef, 0 0 20px #57c5e4, 0 0 25px #57c5e4, 0 0 30px #57c5e4, 0 0 35px #01baef;
+  border-bottom: 0.3rem solid #01baef;
+}
+.text-color{
+  color: #01baef;
+  font-weight: bold;
+}
+#main-nav a:hover .text-color{
+  color: #0b4f6c;
+  font-weight: bold;
+}
+#pin-skills{
+  position: relative;
+  top: 37rem;
+}
+/* ====================================================== milieu body-box */
+#body-box{
+  width: 100%;
+  background-color: #3c4859;
+  margin: 0 auto;
+  text-align: center;
+  color: #040f16;
+}
+#body-box .text-color{
+  color: #0b4f6c;
+}
+#body-box h2{
+  color: #040f16;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+/* ============================== parallax et espace entre les paragraphe */
+.espace-parralax{
+  background-image: url('../image/matrixblue.jpg');
+  height: 40rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+}
+.espace{
+  height: 8rem;
+}
+#espace-contact{
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  height: 20rem;
+  background-color: #3c4859;
+}
+/* ===================================== titre */
+#title-box{
+  display: inline-block;
+  height: 40rem;
+  width: 70%;
+  margin-bottom: 4rem;
+  margin-top: 12rem;
+  background-color: #EEF;
+  border-radius: 2rem;
+}
+#title-photo{
+  float: left;
+  padding-left: 5rem;
+  margin-top: 15rem;
+  width: 10%;
+}
+#title-photo img{
+  height: 10rem;
+  width: 100%;
+}
+#title-text{
+  padding-left: 5rem;
+  text-align: center;
+  float: left;
+  margin: 13rem 0;
+  font-size: 1.8rem;
+  color: #040f16;
+  width: 60%;
+}
+/* ============================== presentation */
+#aboutme-box{
+  display: inline-block;
+  height: 40rem;
+  width: 70%;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: #eeeeff;
+  border-radius: 2rem;
+  text-align: center
+}
+/* ============================== competence */
+#skills-box{
+  display: inline-block;
+  height: 40rem;
+  width: 70%;
+  margin-bottom: 4rem;
+  margin-top: 9rem;
+  background-color: #EEF;
+  border-radius: 2rem;
+  text-align: center
+}
+.skills-column{
+  display: inline-block;
+  width: 45%;
+  height: 15rem;
+  margin: 1rem;
+  border-left: 0.1rem solid #0b4f6c;
+  border-right: 0.1rem solid #0b4f6c;
+}
+.skills-language{
+  display: inline-block;
+  width: 100%;
+}
+.skills-language-icon{
+  display: inline-block;
+  width: 20%;
+}
+.skills-language-titre{
+  text-align: left;
+  display: inline-block;
+  width: 60%;
+  color: #040f16;
+  margin: 0 2rem;
+}
+/* ==============barre de progression */
+.skills-language-progress-bar{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 0.8rem;
+  background-color: rgb(161, 161, 182);
+  border: 0.1rem solid #040f16;
+}
+.skills-language-progress{
+  float: left;
+  height: 1.2rem;
+  padding: 0.15rem;
+  border-radius: 0.8rem;
+  background-color:#0b4f6c;
+  color: #EEF;
+}
+/* ============================== formation */
+#formation-box{
+  display: inline-block;
+  height: 40rem;
+  width: 70%;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: #EEF;
+  border-radius: 2rem;
+  text-align: center
+}
+/* ============================== experience */
+#experience-box{
+  display: inline-block;
+  height: 40rem;
+  width: 70%;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: #EEF;
+  border-radius: 2rem;
+  text-align: center
+}
+/* ============================================== bas foot-box */
+#foot-box{
+  width: 100%;
+  min-height: 95rem;
+  background-color: #040f16;
+  color: #fbfbff;
+  margin: 0 auto;
+  text-align: center;
+}
+#pin-contact{
+  position: relative;
+  top: 37rem;
+}
+#foot-box h2{
+  color: #fbfbff;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+/* ============================== contact */
+.contact-box{
+  display: inline-block;
+  position: relative;
+  top: 25rem;
+  width: 70%;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+  background-color: #848aa72d;
+  border-radius: 2rem;
+  text-align: center
+}
+.contact-column{
+  display: inline-block;
+  width: 49%;
+  border-left: 0.1rem solid #0b4f6c;
+  border-right: 0.1rem solid #0b4f6c;
+}
+/* ===========================zone formulaire */
+#contact-block-formulaire{
+  display: inline-block;
+  text-align: left;
+  margin: 0 2rem;
+}
+.contact-block-formulaire-type{
+  padding: 0.5rem 0;
+  float: left;
+  width: 90%;
+}
+.contact-block-formulaire-type input,textarea{
+  border-radius: 1rem;
+  padding: 0.3rem;
+  background-color: #fbfbff;
+  border: 0.1rem solid #040f16;
+  font-family: 'Roboto', sans-serif;
+}
+/* ===========================zone bouton contact */
+
+/* ===========================zone pied de page + bouton up page */
+#contact-box-foot{
+  margin-top: 2rem;
+  width: 96%;
+}
+#contact-box-foot-text{
+  display: inline-block;
+  margin-top: 1rem;
+  color: #fbfbff;
+}
+#button-up-page{
+  float: right;
+}
+#button-up-page a{
+  font-weight: bold;
+  text-decoration: none;
+  float: right;
+  width: 3rem;
+  height: 2rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.7rem;
+  border-radius: 0.7rem;
+  background-color: #040f16;
+  color: #0b4f6c;
+}
+#button-up-page a:hover{
+  font-weight: bold;
+  background-color: #0b4f6c;
+  color: #040f16;
+}
